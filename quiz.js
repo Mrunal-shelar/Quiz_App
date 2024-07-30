@@ -59,7 +59,7 @@ const begin = startButton.addEventListener("click",()=>{
 
 const timestop = startButton.addEventListener("click",()=>{
     
-        var timeLeft = 30;
+        var timeLeft = 40;
         var elem = document.getElementById('time');
         
         var timerId = setInterval(countdown, 1000);
@@ -184,7 +184,7 @@ function showScore() {
 nextButton.addEventListener("click",()=>{
 
        
-        var timeLeft = 30;
+        var timeLeft = 40;
         var elem = document.getElementById('time');
         
         var timerId = setInterval(countdown, 1000);
